@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Thoughts</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="lbl_nearby_thoughts_search_result">Nearby Thoughts</string>
+
+    <string name="lbl_find_thoughts_search_form">Find Thoughts Nearby</string>
+    <string name="btn_lbl_search_nearby_search_form">Search</string>
+    <string name="btn_lbl_leave_thought_search_form">Leave a Thought Here</string>
+
+    <string name="btn_lbl_submit_thought_create_form">Release</string>
+    <string name="lbl_thought_input_create_form">Leave a thought:</string>
+
+    <string name="lbl_comments_title_view">Comments</string>
+    <string name="dummy_like_count_view">33</string>
+    <string name="dummy_dislike_count_view">19</string>
+
+    <string name="dummy_timestamp">11:30 10-Oct-2015</string>
+    <string name="dummy_user">Jack Mike</string>
+    <string name="dummy_comment">
+        Cool idea. Let us think about it.
+        \nWhat about the users and value to them?\n
+    </string>
+    <string name="dummy_thought">
+        Big Ben is one of the most iconic attractions around the world,
+        and is one of the main things associated with London, however
+        the tower itself shares a different name The Elizabeth Tower.
+    </string>
+    <string name="dummy_thought_short">
+        Big Ben is one of the most iconic attractions around the world,
+        and is one of the main things...
+    </string>
+
+</resources>

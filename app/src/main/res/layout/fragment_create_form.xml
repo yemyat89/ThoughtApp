@@ -1,0 +1,62 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.yemyatthein.thoughts.fragments.CreateFormFragment">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/map_container_create_form"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#4C4C55"
+        android:padding="2dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="20dp">
+    </RelativeLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/create_form_container"
+        android:paddingBottom="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:text="@string/lbl_thought_input_create_form"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingBottom="5dp"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/etext_thought_content_create_form"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:gravity="top|left"
+            android:background="@drawable/edit_text_style"
+            android:padding="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+        <Button
+            android:id="@+id/btn_submit_throught_create_form"
+            android:text="@string/btn_lbl_submit_thought_create_form"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="@drawable/button_style"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

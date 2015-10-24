@@ -1,0 +1,56 @@
+activity_read
+	read_container
+
+activity_write
+	write_container
+
+fragment_create_form
+	- map_container_create_form
+	- etext_thought_content_create_form
+	- btn_submit_throught_create_form
+	- s/lbl_thought_input_create_form
+	- s/btn_lbl_submit_thought_create_form
+
+fragment_search_form
+	- etext_thought_content_search_form
+	- btn_search_nearby_search_form
+	- map_container_search_form
+	- btn_leave_thought_search_form
+	- btn_lbl_leave_thought_search_form
+	- s/lbl_find_thoughts_search_form
+	- s/btn_lbl_search_nearby_search_form
+	- s/btn_lbl_leave_thought_search_form
+
+fragment_search_result
+	- map_container_search_result
+	- lv_search_results
+	- s/lbl_nearby_thoughts_search_result
+	
+fragment_view
+	- etext_thought_content_view
+	- text_timestamp_view
+	- map_container_view
+	- btn_like_icon_view
+	- txt_like_count_view
+	- btn_dislike_icon_view
+	- txt_dislike_count_view
+	- layout_container_comments_view
+	- s/dummy_thought
+	- s/dummy_timestamp
+	- s/dummy_like_count_view
+	- s/dummy_dislike_count_view
+	- s/lbl_comments_title_view
+	- s/dummy_user
+	- s/dummy_comment
+
+search_result_item
+	- text_thought_content_search_result_item
+	- text_thought_time_search_result_item
+	- s/dummy_thought_short
+	- s/dummy_timestamp
+
+
+
+
+
+
